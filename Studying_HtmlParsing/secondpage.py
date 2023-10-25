@@ -18,3 +18,4 @@ soup = BeautifulSoup(res.text,"html.parser")
 find_result = soup.find("div","page-header")
 
 print(find_result.h1.text.strip())
+
